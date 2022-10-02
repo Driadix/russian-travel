@@ -1,0 +1,9 @@
+.header__wrapper {
+  width: calc(100% - 48px * 2);
+  padding-top: 28px;
+  margin: 0 auto 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}

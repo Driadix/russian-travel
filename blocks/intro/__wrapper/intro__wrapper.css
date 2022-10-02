@@ -2,3 +2,24 @@
   max-width: 690px;
   margin: 0 0 92px 148px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__wrapper {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__wrapper {
+    max-width: unset;
+    width: calc(100% - 24px * 2);
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .intro__wrapper {
+    width: calc(100% - 16px * 2);
+    margin: 0 auto 64px;
+  }
+}

@@ -22,7 +22,7 @@
 @media screen and (max-width: 420px) {
   .header__wrapper {
     width: calc(100% - 16px * 2);
-    margin-top: 16px;
+    padding-top: 16px;
 
   }
 }

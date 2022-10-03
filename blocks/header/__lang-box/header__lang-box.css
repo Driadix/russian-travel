@@ -1,9 +1,13 @@
 .header__lang-box {
-  margin: 18px 0 6px;
+  margin-bottom: 6px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 18px;
 }
 
 @media screen and (max-width: 420px) {
   .header__lang-box {
-    margin: 14px 0 8px;
+    margin-bottom: 8px;
   }
 }

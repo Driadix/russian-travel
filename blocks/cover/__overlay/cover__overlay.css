@@ -5,6 +5,9 @@
   color: #FFFFFF;
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: url('../../../images/cover-trains.jpg') no-repeat;
   background-size: cover;
   background-position: center;

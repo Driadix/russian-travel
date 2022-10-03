@@ -11,14 +11,26 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 710px) {
+  .place__paragraph {
+    max-width: 406px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .place__paragraph {
+    max-width: 470px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .place__paragraph {
     max-width: 288px;
   }

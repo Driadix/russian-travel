@@ -20,7 +20,13 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 680px) {
+  .places__wrapper {
+    width: calc(100% - 8px * 2);
+  }
+}
+
+@media screen and (max-width: 480px) {
   .places__wrapper {
     width: 100%;
     gap: 50px;

@@ -4,14 +4,13 @@
   gap: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .place__text {
     gap: 25px;
-
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 320px) {
   .place__text {
     margin-left: 16px;
   }

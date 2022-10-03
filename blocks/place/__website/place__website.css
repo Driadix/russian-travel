@@ -11,16 +11,32 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .place__website {
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 710px) {
+  .place__website {
+    max-width: 406px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .place__website {
+    max-width: 470px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .place__website {
     max-width: 288px;
-    align-self: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
     margin: 0 0 32px 16px;
   }
 }
